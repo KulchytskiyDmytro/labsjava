@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Kulchytskiylaba1:war" />
+      <artifact name="kulchytskiylaba1:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -42,12 +42,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration name="Kulchytskiylaba1server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="kulchytskiylaba1server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Kulchytskiylaba1:war">
+        <artifact name="kulchytskiylaba1:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/Kulchytskiylaba1" />
+            <option name="CONTEXT_PATH" value="/kulchytskiylaba1" />
           </settings>
         </artifact>
       </deployment>
@@ -125,7 +125,7 @@
       <method v="2">
         <option name="MakeProject" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Kulchytskiylaba1:war" />
+          <artifact name="kulchytskiylaba1:war" />
         </option>
       </method>
     </configuration>
