@@ -15,7 +15,7 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
-          <factory-entry name="kulchytskiylaba1" />
+          <factory-entry name="Kulchytskiylaba1" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
