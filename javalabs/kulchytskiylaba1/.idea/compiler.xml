@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kulchytskiylaba1" target="1.7" />
+      <module name="Kulchytskiylaba1" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
