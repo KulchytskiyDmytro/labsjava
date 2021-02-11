@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="dialoge__menu">
-                        <form action="final.jsp" class="ui-form">
+                        <form action="final.html" class="ui-form">
                             <h3>ENTER TO SITE</h3>
                             <div class="form-row">
                                 <input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
@@ -49,14 +49,30 @@
                                 <input type="password" id="password" required autocomplete="off"><label for="password">Пароль</label>
                             </div>
                             <h3 class="text">Choose what do you like</h3>
-                            <div class="checkbox">
+                            <div class="checkbox__block">
                                 <div class="checkbox__colum">
-                                    <input type="checkbox" id="с1"><label for="c1"> Pancakes</label><br>
-                                    <input type="checkbox" id="с2"><label for="c2"> Cake</label>
+                                    <label for="c1">
+                                        <input type="checkbox" class="checkbox" id="с1">
+                                        <span class="ch__fake"></span>
+                                        <span class="ch__text">Pancakes</span> 
+                                    </label><br>
+                                    <label for="c2">
+                                        <input type="checkbox" class="checkbox" id="с2">
+                                        <span class="ch__fake"></span>
+                                        <span class="ch__text">Cake</span>                                       
+                                    </label>
                                 </div>
                                 <div class="checkbox__colum">
-                                    <input type="checkbox" id="с3"><label for="c3"> Tears of virgin</label><br>
-                                    <input type="checkbox" id="с4"><label for="c4"> Chocolate</label>
+                                    <label for="c3">
+                                        <input type="checkbox" class="checkbox" id="с3">
+                                        <span class="ch__fake"></span>
+                                        <span class="ch__text">Tears of virgin</span>                                        
+                                    </label><br>
+                                    <label for="c4">
+                                        <input type="checkbox" class="checkbox" id="с4">
+                                        <span class="ch__fake"></span>
+                                        <span class="ch__text">Chocolate</span>                                        
+                                    </label>
                                 </div>
                             </div>
                             <button class="submit" type="submit">Войти</button>
