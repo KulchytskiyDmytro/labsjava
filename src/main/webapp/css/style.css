@@ -7,10 +7,68 @@
     background-position: center;
 }
 
+.dialoge__menu {
+    padding: 2.2%;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    color: #dadada;
+    text-align: center;
+}
+
+.table_header {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+.block_table{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.data{
+    display:flex;
+}
+
+.table_header_box{
+    display:flex;
+    margin: 1%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+form>button {
+    text-decoration: none;
+    background-color: #C3494B;
+    border: 0;
+    font-family: 'Crimson Pro', serif;
+    color: #e4e4e4;
+    font-size: 1.5vw;
+    border-radius: 13px;
+    margin: 2%;
+    padding: 2%;
+    -webkit-animation: text__opacity 0.8s;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
 .foot {
     width: 100%;
     height: auto;
     background-color: #02021A;
+}
+
+.buttons {
+    width: 15%;
+    display: flex;
 }
 
 .content {
@@ -72,15 +130,15 @@
     margin: 0% auto;
 }
 
-.dialoge__menu {
-    padding: 2.2%;
-    width: 100%;
-    height: auto;
-    font-size: 1.7vw;
-    text-decoration: none;
-    font-family: 'Crimson Pro', serif;
-    color: #dadada;
-    text-align: center;
+
+
+.image {
+    display: flex;
+    margin: 0 auto;
+}
+
+.Title {
+    padding-top: 6%;
 }
 
 .btn {
@@ -343,11 +401,9 @@
 
 @-webkit-keyframes text__opacity {
     0% {
-        padding: 0;
         opacity: 0;
     }
     100% {
-        padding: 0;
         opacity: 1;
     }
 }
@@ -406,7 +462,11 @@
 
 .checkbox__colum {
     width: 50%;
+    padding: 2%;
 }
+
+
+/* Кнопка начинаеться */
 
 .checkbox {
     display: none;
@@ -420,36 +480,12 @@
     position: relative;
 }
 
-.cb__fake::before {
-    content: "";
-    position: absolute;
-    display: block;
-    font-size: 10px;
-    width: 20px;
-    height: 8px;
-    border-radius: 1px;
-    border-left: 4px solid #C3494B;
-    border-bottom: 4px solid #C3494B;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    opacity: 0;
-}
-
-.checkbox:checked+.cb__fake::before {
-    opacity: 1;
-}
+/* Кнопка кончаеться */
 
 .form-row {
     position: relative;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .form-row input {
@@ -481,25 +517,8 @@
     transition: all 0.2s ease;
 }
 
-.form-row input:focus {
-    outline: 0;
-    border-color: #F77A52;
-}
-
-.form-row input:focus+label,
-.form-row input:valid+label {
-    transform: translateY(-60px);
-    margin-left: -14px;
-    font-size: 14px;
-    font-weight: 400;
-    outline: 0;
-    border-color: #F77A52;
-    color: #F77A52;
-}
-
 .ui-form [type="submit"] {
-    width: 100%;
-    margin: 1%;
+    width: 98%;
     line-height: 42px;
     background: #C3494B;
     border-width: 0;
