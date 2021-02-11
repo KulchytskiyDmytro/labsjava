@@ -80,6 +80,7 @@
     text-decoration: none;
     font-family: 'Crimson Pro', serif;
     color: #dadada;
+    text-align: center;
 }
 
 .btn {
@@ -395,6 +396,7 @@
 }
 
 .checkbox__block {
+    text-align: left;
     display: flex;
     -webkit-animation: text__opacity 0.8s;
     font-family: 'Crimson Pro', serif;
