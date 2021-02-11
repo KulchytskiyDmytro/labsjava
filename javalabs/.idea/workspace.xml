@@ -21,7 +21,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -35,6 +35,8 @@
       <updated>1613037458652</updated>
       <workItem from="1613037460326" duration="151000" />
       <workItem from="1613037752342" duration="68000" />
+      <workItem from="1613038352081" duration="592000" />
+      <workItem from="1613039035048" duration="24000" />
     </task>
     <servers />
   </component>
