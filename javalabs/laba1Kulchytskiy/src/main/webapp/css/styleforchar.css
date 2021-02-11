@@ -1,0 +1,292 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.body {
+    width: 100%;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+}
+
+.foot {
+    width: 100%;
+    background-color: #02021A;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Стили текта */
+
+.title__text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Pro', serif;
+    color: #C3494B;
+    font-size: 1.9vw;
+    text-align: center;
+    padding: 1%;
+}
+
+.quote__block {
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.text__block {
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    margin: 0% auto;
+    width: 60%;
+    background-color: #88888828;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+
+.text__block__top {
+    text-align: left;
+    padding: 1%;
+    width: 65%;
+    font-size: 1.5vw;
+}
+
+.text__block__top p {
+    padding: 3%;
+}
+
+.image__text {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.igmfortetx {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.info__block {
+    -webkit-animation: text__opacity 0.8s;
+    font-family: 'Crimson Pro', serif;
+    color: #e4e4e4;
+    font-size: 1.7vw;
+}
+
+.dot {
+    font-size: 1.9vw;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.image {
+    transform: translatez(0);
+    -webkit-animation: character__opacity 0.5s;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.char__door {
+    width: 4%;
+    left: 1%;
+    top: 3%;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.exit__door {
+    width: 100%;
+}
+
+.char__door:hover {
+    opacity: 1;
+}
+
+
+/* Стили для каждой страницы */
+
+.LH {
+    width: 25%;
+}
+
+.LH__text {
+    width: 69%;
+}
+
+.LH__text__img {
+    width: 30%;
+}
+
+.Beel {
+    width: 35%;
+}
+
+.Beel__text {
+    width: 60%;
+}
+
+.Beel__text__img {
+    width: 40%;
+}
+
+.Jus {
+    width: 28%;
+}
+
+.Jus__text {
+    width: 69%;
+}
+
+.Jus__text__img {
+    width: 30%;
+}
+
+.Cer {
+    width: 50%;
+}
+
+.Cer__text {
+    width: 78%;
+}
+
+.Cer__text__img {
+    width: 20%;
+}
+
+.Malina {
+    width: 25%;
+}
+
+.Malina__text {
+    width: 70%;
+}
+
+.Malina__text__img {
+    width: 27%;
+}
+
+.Modeus {
+    width: 25%;
+}
+
+.Modeus__text {
+    width: 70%;
+}
+
+.Modeus__text__img {
+    width: 29%;
+}
+
+.Pand {
+    width: 27%;
+}
+
+.img_char {
+    width: 100%;
+}
+
+.Jud {
+    width: 45%;
+}
+
+.Jud__text {
+    width: 70%;
+}
+
+.Jud__text__img {
+    width: 29%;
+}
+
+.Az {
+    width: 25%;
+}
+
+.Az__text {
+    width: 70%;
+}
+
+.Az__text__img {
+    width: 29%;
+}
+
+.Z {
+    width: 33%;
+}
+
+.Z__text {
+    width: 65%;
+}
+
+.Z__text__img {
+    width: 34%;
+}
+
+
+/* 
+    -------------------------------------------- 
+                       КНОПКИ
+    -------------------------------------------- 
+*/
+
+.dialoge__menu {
+    display: flex;
+    justify-content: center;
+    padding: 2.2%;
+    width: 10%;
+    height: auto;
+    margin: 0% auto;
+}
+
+.bth__dialoge {
+    display: flex;
+    width: 100%;
+}
+
+.dialoge {
+    display: flex;
+    float: left;
+}
+
+
+/* Анимации */
+
+@-webkit-keyframes character__opacity {
+    0% {
+        padding: 0;
+        opacity: 0;
+    }
+    100% {
+        padding: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text__opacity {
+    0% {
+        padding: 0;
+        opacity: 0;
+    }
+    100% {
+        padding: 0;
+        opacity: 1;
+    }
+}

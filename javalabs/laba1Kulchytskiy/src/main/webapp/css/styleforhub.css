@@ -1,0 +1,199 @@
+.logo {
+    width: 34%;
+    padding: .5%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #02021A;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-image: url(../images/backforhub.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.content {
+    width: 70%;
+    height: auto;
+}
+
+.character {
+    display: flex;
+    padding: 0% 2% 1% 2%;
+    width: 20%;
+}
+
+.down__case,
+.up__case {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.up__case {
+    padding: 4% 4% 3% 4%;
+}
+
+.down__case {
+    padding: 0% 4% 4% 4%;
+}
+
+.up__case img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.down__case img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.back__text__hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.back__text__hover .img {
+    transform: translatez(0);
+    display: block;
+    position: relative;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.back__text__hover:hover .img {
+    transform: translatez(0);
+    display: block;
+    transform: scale(1.2);
+}
+
+.text__hover {
+    -webkit-animation: img__opacity 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: none;
+    animation-fill-mode: forwards;
+}
+
+.back__text__hover:hover .text__hover {
+    /* Фиксит потерю качества при уменьшении*/
+    transform: translatez(0);
+    display: block;
+    background-color: rgba(2, 2, 26, 0.5);
+}
+
+.name__char {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.text__hover {
+    -webkit-animation: text__dec 0.5s;
+    font-family: 'Crimson Pro', serif;
+    color: #ec5659;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.short__info {
+    -webkit-animation: text__dec 0.5s;
+    padding-top: 25%;
+    font-family: 'Crimson Pro', serif;
+    color: #e4e4e4;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.text {
+    padding: 13% 0% 15% 0%;
+}
+
+.dot {
+    font-size: 1.3vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 450px) {
+    .logo {
+        width: 90%;
+    }
+    .content {
+        width: 100%;
+    }
+    .character {
+        width: 50%;
+    }
+    .up__case {
+        width: 100%;
+        height: auto;
+    }
+    .down__case {
+        width: 100%;
+        height: auto;
+    }
+    .main {
+        background-size: auto auto;
+    }
+}
+
+@-webkit-keyframes text__dec {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes img__opacity {
+    0% {
+        padding: 0;
+        background-color: rgba(2, 2, 26, 0);
+    }
+    100% {
+        padding: 0;
+        background-color: rgba(2, 2, 26, 0.5);
+    }
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #02021A;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__door {
+    width: 10%;
+    margin: auto 0;
+    padding: 1%;
+}
+
+.hub__door {
+    width: 100%;
+}
