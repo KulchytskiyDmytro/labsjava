@@ -406,7 +406,11 @@
 
 .checkbox__colum {
     width: 50%;
+    padding: 2%;
 }
+
+
+/* Кнопка начинаеться */
 
 .checkbox {
     display: none;
@@ -446,6 +450,9 @@
 .checkbox:checked+.cb__fake::before {
     opacity: 1;
 }
+
+
+/* Кнопка кончаеться */
 
 .form-row {
     position: relative;
@@ -498,8 +505,7 @@
 }
 
 .ui-form [type="submit"] {
-    width: 100%;
-    margin: 1%;
+    width: 98%;
     line-height: 42px;
     background: #C3494B;
     border-width: 0;
