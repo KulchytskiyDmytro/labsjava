@@ -34,19 +34,18 @@
                             </div>
                         </div>
                         <div class="dialoge__char">
-                            <p>So you finaly did this</p>
-                            <p>Thank you for been a consuber in our case</p>
-                            <p>Good day toy you!</p>
+                            <p>There is nowhere to run darling, You are in Hell.</p>
+                            <p>However, you can also check our buisnes partners.</p>
+                            <p>Or you can still learn something about this place.</p>
                         </div>
                     </div>
                     <div class="dialoge__menu">
-                        <div class="dialoge__char">
-                            <p>Our congrats you did this!</p>
-                        </div>
+                        <h3>Go to the next page</h3>
+                        <h2>Click on the button below</h2>
+                        <form action="form" method="get">
+                            <button type="submit">Button</button>
+                        </form>
                     </div>
-                    <form action="index.html" method="get">
-                        <button type="submit">Click on button</button>
-                    </form>
                 </div>
             </div>
         </footer>

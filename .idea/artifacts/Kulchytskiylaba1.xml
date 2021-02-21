@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Kulchytskiylaba1">
+    <output-path>$PROJECT_DIR$/out/artifacts/Kulchytskiylaba1</output-path>
+    <root id="archive" name="Kulchytskiylaba1.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main" />
+    </root>
+  </artifact>
+</component>

@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="dialoge__menu">
-                        <form action="final.html" class="ui-form">
+                        <form action="final.jsp" class="ui-form">
                             <h3>ENTER TO SITE</h3>
                             <div class="form-row">
                                 <input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
@@ -51,7 +51,6 @@
                             <h3 class="text">Choose what do you like</h3>
                             <div class="checkbox__block">
                                 <div class="checkbox__colum">
-
                                     <label class="label">
                                         <input type="checkbox" class="checkbox" id="с3">
                                         <span class="cb__fake"></span>

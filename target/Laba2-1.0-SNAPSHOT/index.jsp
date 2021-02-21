@@ -42,8 +42,8 @@
                     <div class="dialoge__menu">
                         <h3>Go to the next page</h3>
                         <h2>Click on the button below</h2>
-                        <form action="form.html" method="get">
-                            <button type="submit">Click on button</button>
+                        <form action="form" method="get">
+                            <button type="submit">Button</button>
                         </form>
                     </div>
                 </div>
