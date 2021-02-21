@@ -40,11 +40,12 @@
                             <p>There is nowhere to run darling, You are in Hell.</p>
                             <p>However, you can also check our buisnes partners.</p>
                             <p>Or you can still learn something about this place.</p>
+                            <h3 class="Title">ENTER TO SITE</h3>
                         </div>
                     </div>
                     <div class="dialoge__menu">
                         <form action="<%=request.getContextPath()%>/form" method="POST">
-                            <h3>ENTER TO SITE</h3>
+
                             <div class="form-row">
                                 <input name="name" type="text" id="name" required autocomplete="off"><label for="name">Name</label>
                             </div>
