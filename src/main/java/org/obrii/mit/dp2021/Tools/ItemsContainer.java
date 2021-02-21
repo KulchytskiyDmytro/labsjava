@@ -16,21 +16,11 @@ public class ItemsContainer implements IContainer {
 
         List<IItems> items = new ArrayList<>();
 
-        if(items == null){
-            items.add(new Cakes());
-            items.add(new Chocolate());
-            items.add(new Pancakes());
-            items.add(new Tears());
-            return items;
-        }
-        try{}catch(NullPointerException e){
-            items.add(new Cakes());
-            items.add(new Chocolate());
-            items.add(new Pancakes());
-            items.add(new Tears());
+        items.add(new Cakes());
+        items.add(new Chocolate());
+        items.add(new Pancakes());
+        items.add(new Tears());
 
-            return items;
-        }
         return items;
 
     }
