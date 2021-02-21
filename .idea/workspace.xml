@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Laba2" />
+      <artifact name="Laba2:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.41/lib/servlet-api.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -72,9 +72,9 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Laba2/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Laba2">
+        <artifact name="Laba2:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Laba2" />
+            <option name="CONTEXT_PATH" value="/Laba2_Web_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -150,10 +150,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="MakeProject" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Laba2" />
+          <artifact name="Laba2:Web exploded" />
         </option>
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -177,6 +177,8 @@
       <workItem from="1613903286376" duration="17342000" />
       <workItem from="1613921673316" duration="325000" />
       <workItem from="1613922054758" duration="701000" />
+      <workItem from="1613926850670" duration="99000" />
+      <workItem from="1613926981861" duration="145000" />
     </task>
     <servers />
   </component>
