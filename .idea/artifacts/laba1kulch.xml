@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="laba1kulch">
-    <output-path>$PROJECT_DIR$/out/artifacts/laba1kulch</output-path>
-    <root id="archive" name="laba1kulch.war">
-      <element id="dir-copy" path="$PROJECT_DIR$/src/main" />
-    </root>
-  </artifact>
-</component>
