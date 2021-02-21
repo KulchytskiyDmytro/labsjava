@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Laba2:Web exploded" />
+      <artifact name="Lab2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -55,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.41/lib/servlet-api.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -80,12 +80,12 @@
       </method>
     </configuration>
     <configuration name="Kulchytskiylaba1server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Laba2/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Lab2_war_exploded" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Laba2:Web exploded">
+        <artifact name="Lab2:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Laba2_Web_exploded" />
+            <option name="CONTEXT_PATH" value="/Lab2_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -162,7 +162,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Laba2:Web exploded" />
+          <artifact name="Lab2:war exploded" />
         </option>
         <option name="MakeProject" enabled="true" />
       </method>
@@ -190,6 +190,7 @@
       <workItem from="1613922054758" duration="701000" />
       <workItem from="1613926850670" duration="99000" />
       <workItem from="1613926981861" duration="1117000" />
+      <workItem from="1613928221364" duration="184000" />
     </task>
     <servers />
   </component>

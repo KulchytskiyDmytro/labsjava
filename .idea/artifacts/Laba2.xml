@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="Laba2">
-    <output-path>$PROJECT_DIR$/out/artifacts/Laba2</output-path>
-    <root id="archive" name="Laba2.war">
-      <element id="dir-copy" path="$PROJECT_DIR$/src/main" />
-    </root>
-  </artifact>
-</component>

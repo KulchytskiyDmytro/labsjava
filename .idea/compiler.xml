@@ -16,7 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Lab2" options="-endorseddirs &quot;C:\Users\dima0\OneDrive\Рабочий стол\Laba2\target/endorsed&quot;" />
+      <module name="Lab2" options="-endorseddirs D:\Репрозиторий\Lab2\target/endorsed" />
     </option>
   </component>
 </project>
