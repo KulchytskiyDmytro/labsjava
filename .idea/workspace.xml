@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Kulchytskiylaba1:war" />
+      <artifact name="Laba2" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -60,7 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -68,18 +68,24 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kulchytskiylaba1server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Kulchutskiylaba1_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Laba2/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Laba2">
           <settings>
-            <option name="CONTEXT_PATH" value="/Kulchytskiylaba2" />
-          </settings>
-        </artifact>
-        <artifact name="Kulchytskiylaba1:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Kulchytskiylaba1_war" />
+            <option name="CONTEXT_PATH" value="/Laba2" />
           </settings>
         </artifact>
       </deployment>
@@ -157,7 +163,7 @@
       <method v="2">
         <option name="MakeProject" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Kulchytskiylaba1:war" />
+          <artifact name="Laba2" />
         </option>
       </method>
     </configuration>
@@ -181,6 +187,7 @@
       <workItem from="1613899361910" duration="2602000" />
       <workItem from="1613903286376" duration="17342000" />
       <workItem from="1613921673316" duration="325000" />
+      <workItem from="1613922054758" duration="701000" />
     </task>
     <servers />
   </component>
