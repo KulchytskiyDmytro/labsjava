@@ -45,6 +45,7 @@
                         <form action="form" method="get">
                             <button type="submit">Button</button>
                         </form>
+                        <img class="image" src="images/shema.png">
                     </div>
                 </div>
             </div>

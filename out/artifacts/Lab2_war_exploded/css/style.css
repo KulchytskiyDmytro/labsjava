@@ -86,6 +86,10 @@
     color: #dadada;
     text-align: center;
 }
+.image{
+    display:flex;
+    margin: 0 auto;
+}
 .Title{
     padding-top: 6%;
 }
