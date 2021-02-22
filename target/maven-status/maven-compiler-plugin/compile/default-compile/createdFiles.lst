@@ -1,0 +1,9 @@
+org\obrii\mit\dp2021\interfaces\IItems.class
+org\obrii\mit\dp2021\Items\Pancakes.class
+org\obrii\mit\dp2021\Tools\Parameter.class
+org\obrii\mit\dp2021\Tools\FormServlet.class
+org\obrii\mit\dp2021\interfaces\IContainer.class
+org\obrii\mit\dp2021\Tools\ItemsContainer.class
+org\obrii\mit\dp2021\Items\Tears.class
+org\obrii\mit\dp2021\Items\Chocolate.class
+org\obrii\mit\dp2021\Items\Cakes.class
