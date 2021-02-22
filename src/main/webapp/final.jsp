@@ -38,7 +38,7 @@
                         <div class="dialoge__char">
                             <p>So you finaly did this! Dear, <%=parameter.getName()%></p>
                             <p>We will contact with you by this addres, <%=parameter.getEmail()%></p>
-                            <p>And also we will send you a, <%=parameter.getItem()%></p>
+                            <p>And also we will send you <%=parameter.getItem()%></p>
                         </div>
                     </div>
                     <div class="dialoge__menu">
