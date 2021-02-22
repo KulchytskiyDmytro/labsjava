@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
@@ -17,6 +16,7 @@
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
           <factory-entry name="Kulchytskiylaba1" />
+          <factory-entry name="Lab2" />
           <factory-entry name="Laba2" />
         </datasource-mapping>
         <naming-strategy-map />
