@@ -6,13 +6,43 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.dialoge__menu {
+    padding: 2.2%;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    color: #dadada;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .table_header {
-    display: flex;
+    display:flex;
+    width: 80%;
     justify-content: space-between;
     font-size: 2vw;
 }
 
+.block_table{
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.data{
+    display:flex;
+}
+
+.table_header_box{
+    display:flex;
+    margin: 1%;
+    width: 100%;
+    justify-content: space-around;
+
+}
 form>button {
     text-decoration: none;
     background-color: #C3494B;
@@ -35,20 +65,11 @@ form>button {
     background-color: #02021A;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 .buttons {
     width: 15%;
     display: flex;
 }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .content {
     display: flex;
     justify-content: center;
@@ -96,10 +117,10 @@ form>button {
 }
 
 
-/* 
-    -------------------------------------------- 
+/*
+    --------------------------------------------
                        КНОПКИ
-    -------------------------------------------- 
+    --------------------------------------------
 */
 
 .bth__action {
@@ -108,30 +129,8 @@ form>button {
     margin: 0% auto;
 }
 
-.dialoge__menu {
-    padding: 2.2%;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    width: 100%;
-=======
-    width: 60%;
->>>>>>> Stashed changes
-=======
-    width: 60%;
->>>>>>> Stashed changes
-    height: auto;
-    font-size: 1.7vw;
-    text-decoration: none;
-    font-family: 'Crimson Pro', serif;
-    color: #dadada;
-    text-align: center;
-}
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
+
 .image {
     display: flex;
     margin: 0 auto;
@@ -141,10 +140,6 @@ form>button {
     padding-top: 6%;
 }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .btn {
     margin: 0% auto;
     width: 15%;
@@ -517,6 +512,7 @@ form>button {
 .form-row {
     position: relative;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .form-row input {
