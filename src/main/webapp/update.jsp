@@ -54,6 +54,7 @@
                         <a class="return" href="<%=request.getContextPath()%>">Return</a>
                 </div>
             </div>
+            </div>
         </footer>
     </div>
 </body>
