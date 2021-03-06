@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8688a9d1-44c0-46f1-b923-2a348938eec5" name="Default Changelist" comment="Commit to master" />
+    <list default="true" id="8688a9d1-44c0-46f1-b923-2a348938eec5" name="Default Changelist" comment="Commit to master">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +153,8 @@
       <workItem from="1615028581717" duration="1652000" />
       <workItem from="1615037843900" duration="2482000" />
       <workItem from="1615047006259" duration="126000" />
-      <workItem from="1615047253894" duration="2789000" />
+      <workItem from="1615047253894" duration="3389000" />
+      <workItem from="1615055006364" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Commit to master">
       <created>1615032640846</created>
