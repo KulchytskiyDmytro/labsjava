@@ -74,8 +74,10 @@ public class FilesCrud implements ICrudData {
     @Override
     public void deleteData(int id) {
         List<Data> newData = new ArrayList<>();
+        int trueId = 0;
         for (Data d : this.readData()) {
             if (d.getId() != id) {
+                d.setId(trueId++);
                 newData.add(d);
             }
         }
