@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .dialoge__menu {
     padding: 2.2%;
     width: 60%;
@@ -16,20 +17,18 @@
     font-family: 'Crimson Pro', serif;
     color: #dadada;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .table_header {
-    display:flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
     font-size: 2vw;
 }
 
 .block_table{
     display:flex;
-    width: 80%;
+    width: 100%;
+    align-items: center;
     justify-content: space-between;
 }
 .data{
@@ -43,6 +42,7 @@
     justify-content: space-around;
 
 }
+
 form>button {
     text-decoration: none;
     background-color: #C3494B;
@@ -51,7 +51,8 @@ form>button {
     color: #e4e4e4;
     font-size: 1.5vw;
     border-radius: 13px;
-    padding: 5%;
+    margin: 2%;
+    padding: 2%;
     -webkit-animation: text__opacity 0.8s;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -479,34 +480,6 @@ form>button {
     position: relative;
 }
 
-.cb__fake::before {
-    content: "";
-    position: absolute;
-    display: block;
-    font-size: 10px;
-    width: 20px;
-    height: 8px;
-    border-radius: 1px;
-    border-left: 4px solid #C3494B;
-    border-bottom: 4px solid #C3494B;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    opacity: 0;
-}
-
-.checkbox:checked+.cb__fake::before {
-    opacity: 1;
-}
-
-
 /* Кнопка кончаеться */
 
 .form-row {
@@ -542,22 +515,6 @@ form>button {
     font-weight: 300;
     transform: translateY(-35px);
     transition: all 0.2s ease;
-}
-
-.form-row input:focus {
-    outline: 0;
-    border-color: #F77A52;
-}
-
-.form-row input:focus+label,
-.form-row input:valid+label {
-    transform: translateY(-60px);
-    margin-left: -14px;
-    font-size: 14px;
-    font-weight: 400;
-    outline: 0;
-    border-color: #F77A52;
-    color: #F77A52;
 }
 
 .ui-form [type="submit"] {
