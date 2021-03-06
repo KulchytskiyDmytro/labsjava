@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 
-@WebServlet(name = "UserDataServlet", urlPatterns = {"/"})
+@WebServlet(name = "UserDataServlet", urlPatterns = {""})
 public class UserDataServlet extends HttpServlet {
     FilesCrud CRUD = new FilesCrud(new File(Config.getFileName()));
 
