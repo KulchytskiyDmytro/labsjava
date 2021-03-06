@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/reset.css">
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/ico" href="<%=request.getContextPath()%>/images/favicon.ico">
 </head>
 
 <body>
@@ -45,36 +45,43 @@
                     </div>
                 </div>
                 <div class="dialoge__menu">
+                    <div class="names">
+                        <div class="names_colums">ID</div>
+                        <div class="names_colums">Name</div>
+                        <div class="names_colums">Age</div>
+                        <div class="names_colums">Email</div>
+                    </div>
                     <%for (Data data : dataList) {%>
                     <div class="table_header">
                         <div class="block_table">
-                            <div class="table_header_box"><%=data.getId()%></div>
-                            <div class="table_header_box"><%=data.getName()%></div>
-                            <div class="table_header_box"><%=data.getAge()%></div>
-                            <div class="table_header_box"><%=data.getEmail()%></div>
-
-                            <form action="update.jsp" method="post">
-                                <input type="hidden" name="id" value="<%=data.getId()%>">
-                                <input type="hidden" name="name" value="<%=data.getName()%>">
-                                <input type="hidden" name="age" value="<%=data.getAge()%>">
-                                <input type="hidden" name="email" value="<%=data.getEmail()%>">
-                                <input type="submit" value="Update">
-                            </form>
-
-                            <form action="<%=request.getContextPath()%>/form" method="get">
-                                <input type="hidden" name="id" value="<%=data.getId()%>">
-                                <input type="submit" value="Delete">
-                            </form>
-
+                            <div class="el_block">
+                                <div class="table_header_box"><%=data.getId()%></div>
+                                <div class="table_header_box"><%=data.getName()%></div>
+                                <div class="table_header_box"><%=data.getAge()%></div>
+                                <div class="table_header_box"><%=data.getEmail()%></div>
+                            </div>
+                            <div class="action_block">
+                                <form action="update.jsp" method="post">
+                                    <input type="hidden" name="id" value="<%=data.getId()%>">
+                                    <input type="hidden" name="name" value="<%=data.getName()%>">
+                                    <input type="hidden" name="age" value="<%=data.getAge()%>">
+                                    <input type="hidden" name="email" value="<%=data.getEmail()%>">
+                                    <button class="button" type="submit"  value="Update">Update</button>
+                                </form>
+                                <form action="<%=request.getContextPath()%>/form" method="get">
+                                    <input type="hidden" name="id" value="<%=data.getId()%>">
+                                    <button class="button" type="submit"  value="Delete">Delete</button>
+                                </form>
+                            </div>
                         </div>
                         <%}%>
                         <div class="block_table">
                             <form action= "<%=request.getContextPath()%>/" method="get">
                                 <input  type="text" name="search">
-                                <input type="submit" value="search data">
+                                <button class="button" type="submit" value="search data">Search data</button>
                             </form>
                             <form action="create.jsp" methd="get">
-                                <input type="submit" value="ADD USER" >
+                                <button class="button" type="submit" value="ADD USER">Add user</button>
                             </form>
                         </div>
                     </div>

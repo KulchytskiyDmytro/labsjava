@@ -49,11 +49,8 @@
                                 <form action="<%=request.getContextPath()%>/" method="post">
                                     <input type="hidden" name="id" value="0">
                                     <input type="hidden" name="title" value="Submited"/>
-
                                     <input type="text" name="name" placeholder="Your name" required><br/>
                                     <input type="text" name="age" placeholder="Age" required><br/>
-
-
                                     <input type="text" name="email" placeholder="Email"><br/>
 
                                     <button class="button" type="submit">Submit</button>
@@ -63,7 +60,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </footer>
         </div>
 </body>
