@@ -1,15 +1,10 @@
 <%@ page import="java.util.List" %>
 <%@ page import="org.obrii.mit.dp2021.Data.Data" %>
 <%@ page contentType="text/html;charset=utf-8" %>
-<<<<<<< Updated upstream
-<!DOCTYPE html>
-<html lang="en">
-=======
 
 <!DOCTYPE html>
 <html lang="en">
 
->>>>>>> Stashed changes
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&display=swap" rel="stylesheet">
@@ -19,10 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/ico" href="<%=request.getContextPath()%>/images/favicon.ico">
 </head>
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 <body>
 <%List< Data > dataList = (List<Data>) request.getAttribute("data");%>
         <div class="wrapper">
@@ -57,19 +49,13 @@
 
                                 <%for (Data data : dataList) {%>
                                 <div class="table_header">
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
                                     <div class="table_header_box">
                                         <p>
                                             <%=data.getId()%>
                                         </p>
                                     </div>
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
                                     <div class="table_header_box"><%=data.getName()%></div>
                                     <div class="table_header_box"><%=data.getAge()%></div>
                                     <div class="table_header_box"><%=data.getEmail()%></div>

@@ -16,10 +16,14 @@
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
           <factory-entry name="Kulchytskiylaba1" />
+<<<<<<< Updated upstream:Lab3.iml
 <<<<<<< Updated upstream:Kulchytskiylaba1.iml
 =======
           <factory-entry name="Lab3" />
 >>>>>>> Stashed changes:Lab3.iml
+=======
+          <factory-entry name="Lab3" />
+>>>>>>> Stashed changes:Lab2.iml
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

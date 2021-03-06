@@ -35,20 +35,11 @@ form>button {
     background-color: #02021A;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 .buttons {
     width: 15%;
     display: flex;
 }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .content {
     display: flex;
     justify-content: center;
@@ -110,16 +101,9 @@ form>button {
 
 .dialoge__menu {
     padding: 2.2%;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    width: 100%;
-=======
     width: 60%;
->>>>>>> Stashed changes
-=======
-    width: 60%;
->>>>>>> Stashed changes
     height: auto;
+    margin: 0 auto;
     font-size: 1.7vw;
     text-decoration: none;
     font-family: 'Crimson Pro', serif;
@@ -127,11 +111,6 @@ form>button {
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 .image {
     display: flex;
     margin: 0 auto;
@@ -141,10 +120,6 @@ form>button {
     padding-top: 6%;
 }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .btn {
     margin: 0% auto;
     width: 15%;
@@ -517,6 +492,7 @@ form>button {
 .form-row {
     position: relative;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .form-row input {

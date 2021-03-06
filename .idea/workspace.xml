@@ -120,7 +120,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/classes" />
     <property name="nodejs_package_manager_path" value="npm" />
 >>>>>>> Stashed changes
@@ -289,7 +292,12 @@
       <workItem from="1614946529285" duration="835000" />
       <workItem from="1614951777328" duration="2471000" />
       <workItem from="1614954272239" duration="4792000" />
+<<<<<<< Updated upstream
       <workItem from="1614980748271" duration="9605000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1614980748271" duration="11164000" />
+      <workItem from="1614992361496" duration="331000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
