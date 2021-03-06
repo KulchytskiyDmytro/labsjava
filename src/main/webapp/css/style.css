@@ -9,12 +9,12 @@
 
 .names{
     display:flex;
+    width: 84%;
 }
 
 .names_colums{
     display:flex;
     align-items: center;
-    justify-content: center;
     padding: 0.5%;
     width: 25%;
 }
