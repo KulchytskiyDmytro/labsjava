@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< Updated upstream
         <module name="Kulchytskiylaba1" />
+=======
+        <module name="Lab3" />
+>>>>>>> Stashed changes
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kulchytskiylaba1" target="1.7" />
+<<<<<<< Updated upstream
+=======
+      <module name="Lab3" target="8" />
+>>>>>>> Stashed changes
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+<<<<<<< Updated upstream
       <module name="Kulchytskiylaba1" options="-endorseddirs D:\Репрозиторий\javalabs\laba1Kulchytskiy\target/endorsed" />
+=======
+      <module name="Lab3" options="-endorseddirs &quot;C:\Users\dima0\OneDrive\Рабочий стол\Lab3\target/endorsed&quot;" />
+>>>>>>> Stashed changes
     </option>
   </component>
 </project>

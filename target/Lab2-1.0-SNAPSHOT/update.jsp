@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream:src/main/webapp/final.html
-=======
 <%@ page contentType="text/html;charset=utf-8" %>
->>>>>>> Stashed changes:src/main/webapp/update.jsp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,22 +34,6 @@
                                 <p class="dot">•</p>
                             </div>
                         </div>
-<<<<<<< Updated upstream:src/main/webapp/final.html
-                        <div class="dialoge__char">
-                            <p>So you finaly did this</p>
-                            <p>Thank you for been a consuber in our case</p>
-                            <p>Good day toy you!</p>
-                        </div>
-                    </div>
-                    <div class="dialoge__menu">
-                        <div class="dialoge__char">
-                            <p>Our congrats you did this!</p>
-                        </div>
-                    </div>
-                    <form action="index.html" method="get">
-                        <button type="submit">Click on button</button>
-                    </form>
-=======
 
                     </div>
                     <div class="dialoge__menu">
@@ -71,10 +52,11 @@
                             </form>
                     </div>
                         <a class="return" href="<%=request.getContextPath()%>">Return</a>
->>>>>>> Stashed changes:src/main/webapp/update.jsp
                 </div>
             </div>
         </footer>
     </div>
 </body>
+<script src="<%=request.getContextPath()%>/js.js"></script>
+
 </html>

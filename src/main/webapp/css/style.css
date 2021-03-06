@@ -7,12 +7,42 @@
     background-position: center;
 }
 
+.table_header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+form>button {
+    text-decoration: none;
+    background-color: #C3494B;
+    border: 0;
+    font-family: 'Crimson Pro', serif;
+    color: #e4e4e4;
+    font-size: 1.5vw;
+    border-radius: 13px;
+    padding: 5%;
+    -webkit-animation: text__opacity 0.8s;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
 .foot {
     width: 100%;
     height: auto;
     background-color: #02021A;
 }
 
+<<<<<<< Updated upstream
+=======
+.buttons {
+    width: 15%;
+    display: flex;
+}
+
+>>>>>>> Stashed changes
 .content {
     display: flex;
     justify-content: center;
@@ -74,7 +104,11 @@
 
 .dialoge__menu {
     padding: 2.2%;
+<<<<<<< Updated upstream
     width: 100%;
+=======
+    width: 60%;
+>>>>>>> Stashed changes
     height: auto;
     font-size: 1.7vw;
     text-decoration: none;
@@ -83,6 +117,18 @@
     text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
+.image {
+    display: flex;
+    margin: 0 auto;
+}
+
+.Title {
+    padding-top: 6%;
+}
+
+>>>>>>> Stashed changes
 .btn {
     margin: 0% auto;
     width: 15%;
@@ -343,11 +389,9 @@
 
 @-webkit-keyframes text__opacity {
     0% {
-        padding: 0;
         opacity: 0;
     }
     100% {
-        padding: 0;
         opacity: 1;
     }
 }
