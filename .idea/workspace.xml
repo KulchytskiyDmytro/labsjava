@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Lab3:war" />
+      <artifact name="Lab4:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,13 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8688a9d1-44c0-46f1-b923-2a348938eec5" name="Default Changelist" comment="Commit to master">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lab4_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lab4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/DBTools/AppDBContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/DBTools/ToolsforDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab3_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab3_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab3_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/FilesCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/FilesCrud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/ICrudData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/ICrudData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/FilesCrud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/FilesCrud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/ICrudData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/ICrudData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/FilesCrud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/FilesCrud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/ICrudData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/ICrudData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -50,14 +80,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.411" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Lab3_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Lab4_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Lab3:war">
+        <artifact name="Lab4:war">
           <settings>
             <option name="CONTEXT_PATH" value="/Lab3_war" />
           </settings>
@@ -137,7 +170,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Lab3:war" />
+          <artifact name="Lab4:war" />
         </option>
       </method>
     </configuration>
@@ -154,7 +187,17 @@
       <workItem from="1615037843900" duration="2482000" />
       <workItem from="1615047006259" duration="126000" />
       <workItem from="1615047253894" duration="3389000" />
-      <workItem from="1615055006364" duration="230000" />
+      <workItem from="1615055006364" duration="1861000" />
+      <workItem from="1615065111200" duration="1566000" />
+      <workItem from="1615833073495" duration="4000" />
+      <workItem from="1615982637112" duration="17000" />
+      <workItem from="1615984133736" duration="12000" />
+      <workItem from="1615984185976" duration="2433000" />
+      <workItem from="1615993350098" duration="1133000" />
+      <workItem from="1616000296027" duration="784000" />
+      <workItem from="1616018467683" duration="14000" />
+      <workItem from="1616066165507" duration="1864000" />
+      <workItem from="1616075122774" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Commit to master">
       <created>1615032640846</created>

@@ -1,9 +1,12 @@
 package org.obrii.mit.dp2021.Crud;
 
 
+import org.obrii.mit.dp2021.DBTools.ToolsforDB;
 import org.obrii.mit.dp2021.Data.Data;
 
 import java.io.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -11,104 +14,58 @@ import java.util.logging.Logger;
 
 public class FilesCrud implements ICrudData {
 
-    private Logger logger;
-    private File file;
-
     public FilesCrud() {
-        logger=Logger.getLogger(FilesCrud.class.getName());
-    }
-
-    public FilesCrud(File file) {
-        logger=Logger.getLogger(FilesCrud.class.getName());
-        this.file = file;
-    }
-
-    @Override
-    public void writeData(List< Data > data) {
-
-        try (FileOutputStream f = new FileOutputStream(file);
-             ObjectOutputStream o = new ObjectOutputStream(f)) {
-
-            data.forEach(d -> {
-                try {
-                    o.writeObject(d);
-                } catch (IOException ex) {
-                    logger.log(Level.SEVERE, null, ex);
-                }
-            });
-
-        } catch (FileNotFoundException ex) {
-            logger.log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            logger.log(Level.SEVERE, null, ex);
-        }
-
-    }
-
-    @Override
-    public List<Data> readData() {
-
-        try ( FileInputStream f = new FileInputStream(file);  ObjectInputStream o = new ObjectInputStream(f)) {
-            List<Data> result = new ArrayList<>();
-            while (f.available() > 0) {
-                result.add((Data) o.readObject());
-            }
-            return result;
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(FilesCrud.class.getName()).log(Level.SEVERE, null, ex);
-            return new ArrayList<Data>();
-        } catch (IOException | ClassNotFoundException ex) {
-            Logger.getLogger(FilesCrud.class.getName()).log(Level.SEVERE, null, ex);
-            return new ArrayList<Data>();
-        }
+        ToolsforDB.connectToDB();
+        ToolsforDB.checkForCreatingTable(ToolsforDB.getTableName());
     }
 
     @Override
     public void createData(Data addingData) {
-        List<Data> data = this.readData();
-        addingData.setId(data.size());
-        data.add(addingData);
-        this.writeData(data);
+        ToolsforDB.SQLrequest(String.format("INSERT INTO " + ToolsforDB.getTableName() + " (firstName, lastName, phone, date) VALUES ('%s', '%s', '%s', '%s');",
+                addingData.getName(), addingData.getAge(), addingData.getEmail()));
     }
 
     @Override
-    public void deleteData(int id) {
-        List<Data> newData = new ArrayList<>();
-        int trueId = 0;
-        for (Data d : this.readData()) {
-            if (d.getId() != id) {
-                d.setId(trueId++);
-                newData.add(d);
+    public List<Data> readData() {
+        try {
+            ResultSet result = ToolsforDB.getStatement().executeQuery(String.format("SELECT * FROM %s", ToolsforDB.getTableName()));
+            List<Data> data = new ArrayList<>();
+
+            while (result.next()) {
+                data.add(new Data(
+                        result.getInt("id"),
+                        result.getString("name"),
+                        result.getInt("age"),
+                        result.getString("email")
+                ));
             }
+            return data;
+        } catch (SQLException e) {
+            return new ArrayList<>();
         }
-        this.writeData(newData);
     }
 
     @Override
     public void updateData(int id, Data data) {
+        ToolsforDB.SQLrequest(String.format("UPDATE " + ToolsforDB.getTableName()+ " "
+                + "SET name='" + data.getName() + "' , "
+                + "age=" + data.getAge() + " , "
+                + "email='" + data.getEmail() + "' , "
+                + "WHERE id=" + id)
+        );
+    }
+
+    @Override
+    public void deleteData(int id) {
+        ToolsforDB.SQLrequest("DELETE FROM " + ToolsforDB.getTableName() + " WHERE id=" + id);
+    }
+
+    public List<Data> sortData(String keyword) {
         List<Data> newData = new ArrayList<>();
-        data.setId(id);
-        for (Data d : this.readData()) {
-            if (d.getId() != id) {
+        for (Data d : readData()) {
+            if (d.getName().contains(keyword)) {
                 newData.add(d);
-            } else{ newData.add(data); }
-        }
-        this.writeData(newData);
-    }
-
-    public File getFile() {
-        return file;
-    }
-
-    public void setFileName(File file) {
-        this.file = file;
-    }
-
-    public List<Data> sortData(String phrase) {
-        List<Data> newData = new ArrayList<>();
-        for (Data d : this.readData()) {
-            if(d.getName().contains(phrase)){
-                newData.add(d);}
+            }
         }
         return newData;
     }

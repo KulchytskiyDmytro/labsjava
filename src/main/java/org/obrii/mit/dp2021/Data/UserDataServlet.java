@@ -11,24 +11,19 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 
-@WebServlet(name = "UserDataServlet", urlPatterns = {""})
 public class UserDataServlet extends HttpServlet {
-    FilesCrud CRUD = new FilesCrud(new File(Config.getFileName()));
+    FilesCrud CRUD = new FilesCrud();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //Read users
-        if (Config.getFileName().equals("")) {
-            Config.setFileName(this.getServletContext().getRealPath("") + "data.txt");
-            CRUD = new FilesCrud(new File(Config.getFileName()));
+        //Sort or just open
+        if (request.getParameter("search") != null) {
+            request.setAttribute("CrudData", CRUD.sortData(request.getParameter("search")));
+        } else {
+            request.setAttribute("CrudData", CRUD.readData());
         }
 
-        if(request.getParameter("search")!=null){
-            request.setAttribute("data", CRUD.sortData(request.getParameter("search")));
-        }
-        else{
-            request.setAttribute("data", CRUD.readData());
-        }
+        //System.out.println("=========GET========");
 
         request.getRequestDispatcher("home.jsp").forward(request, response);
     }
@@ -40,11 +35,10 @@ public class UserDataServlet extends HttpServlet {
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
                 Integer.parseInt(req.getParameter("age")),
-                req.getParameter("gender"),
-                req.getParameter("email"),true
+                req.getParameter("email")
         );
         CRUD.createData(user);
-        doGet(req,resp);
+        doGet(req, resp);
     }
 
     @Override
@@ -61,8 +55,7 @@ public class UserDataServlet extends HttpServlet {
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
                 Integer.parseInt(req.getParameter("age")),
-                req.getParameter("gender"),
-                req.getParameter("email"),true
+                req.getParameter("email")
         );
         CRUD.updateData(Integer.parseInt(req.getParameter("id")), user);
         doGet(req, resp);
