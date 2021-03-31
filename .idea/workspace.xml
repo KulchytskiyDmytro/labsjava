@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Lab4:war" />
+      <artifact name="Lab3:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8688a9d1-44c0-46f1-b923-2a348938eec5" name="Default Changelist" comment="Commit to master">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/FormServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/FormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/FormServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,18 +63,12 @@
     <property name="project.structure.side.proportion" value="0.23642944" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Репрозиторий\Lab3\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.411" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/Lab4/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -276,7 +269,7 @@
       <workItem from="1616679340090" duration="357000" />
       <workItem from="1616682204309" duration="5000" />
       <workItem from="1616937074021" duration="3000" />
-      <workItem from="1617101505638" duration="387000" />
+      <workItem from="1617101505638" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="Commit to master">
       <created>1615032640846</created>
