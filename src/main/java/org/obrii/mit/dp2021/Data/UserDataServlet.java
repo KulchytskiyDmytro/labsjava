@@ -32,6 +32,7 @@ public class UserDataServlet extends HttpServlet {
         Data user = new Data(
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
+                req.getParameter("age"),
                 req.getParameter("email")
         );
         CRUD.createData(user);
@@ -51,6 +52,7 @@ public class UserDataServlet extends HttpServlet {
         Data user = new Data(
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
+                req.getParameter("age"),
                 req.getParameter("email")
         );
         CRUD.updateData(Integer.parseInt(req.getParameter("id")), user);

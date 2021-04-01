@@ -10,7 +10,7 @@ public class Data implements Serializable {
     private String email;
 
 
-    public Data(int id, String name, String email) {
+    public Data(int id, String string, String name, String email) {
         this.id=id;
         this.name = name;
         this.age = age;
