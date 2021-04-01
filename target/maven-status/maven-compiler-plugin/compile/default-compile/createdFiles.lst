@@ -1,0 +1,10 @@
+org\obrii\mit\dp2021\Crud\ICrudData.class
+org\obrii\mit\dp2021\Data\FormServlet.class
+org\obrii\mit\dp2021\Data\Data.class
+org\obrii\mit\dp2021\Tools\Config.class
+org\obrii\mit\dp2021\DBTools\AppDBContext.class
+org\obrii\mit\dp2021\DBTools\ToolsforDB.class
+org\obrii\mit\dp2021\Crud\DBCrud.class
+org\obrii\mit\dp2021\Data\UserDataServlet.class
+org\obrii\mit\dp2021\Db\ApplicationDBContext.class
+org\obrii\mit\dp2021\Tools\FormUD.class
