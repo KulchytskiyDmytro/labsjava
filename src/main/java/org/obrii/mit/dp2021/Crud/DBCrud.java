@@ -21,7 +21,7 @@ public class DBCrud implements ICrudData{
 
     @Override
     public void createData(Data addingData) {
-        ToolsforDB.SQLrequest(String.format("INSERT INTO " + ToolsforDB.getTableName() + " (firstName, lastName, phone, date) VALUES ('%s', '%s', '%s', '%s');",
+        ToolsforDB.SQLrequest(String.format("INSERT INTO " + ToolsforDB.getTableName() + " (id, name, age, email) VALUES ('%s', '%s', '%s', '%s');",
                 addingData.getId(), addingData.getName(), addingData.getAge(), addingData.getEmail()));
     }
 
@@ -48,10 +48,10 @@ public class DBCrud implements ICrudData{
     @Override
     public void updateData(int id, Data data) {
         ToolsforDB.SQLrequest(String.format("UPDATE " + ToolsforDB.getTableName()+ " "
-                + "SET firstName='" + data.getName() + "' , "
-                + "lastName=" + data.getAge() + " , "
-                + "phone='" + data.getEmail() + "' , "
-                + "date='" + data.getId() + "' "
+                + "SET firstName='" + data.getId() + "' , "
+                + "lastName=" + data.getName() + " , "
+                + "phone='" + data.getAge() + "' , "
+                + "date='" + data.getEmail() + "' "
                 + "WHERE id=" + id)
         );
     }

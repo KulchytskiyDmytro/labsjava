@@ -10,14 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8688a9d1-44c0-46f1-b923-2a348938eec5" name="Default Changelist" comment="Commit to master">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab3_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab4_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab4_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/DBCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Crud/DBCrud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/obrii/mit/dp2021/Data/UserDataServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/DBCrud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Crud/DBCrud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab3-1.0-SNAPSHOT/WEB-INF/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/DBCrud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Crud/DBCrud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/obrii/mit/dp2021/Data/UserDataServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +288,7 @@
       <workItem from="1616937074021" duration="3000" />
       <workItem from="1617101505638" duration="1531000" />
       <workItem from="1617203052328" duration="612000" />
-      <workItem from="1617287980546" duration="766000" />
+      <workItem from="1617287980546" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="Commit to master">
       <created>1615032640846</created>
