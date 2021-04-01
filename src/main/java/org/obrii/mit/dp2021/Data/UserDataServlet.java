@@ -1,18 +1,16 @@
 package org.obrii.mit.dp2021.Data;
 
-import org.obrii.mit.dp2021.Crud.FilesCrud;
-import org.obrii.mit.dp2021.Tools.Config;
+import org.obrii.mit.dp2021.Crud.DBCrud;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
 import java.io.IOException;
 @WebServlet(name = "PreServlet", urlPatterns = {""})
 public class UserDataServlet extends HttpServlet {
-    FilesCrud CRUD = new FilesCrud();
+    DBCrud CRUD = new DBCrud();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -34,7 +32,6 @@ public class UserDataServlet extends HttpServlet {
         Data user = new Data(
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
-                Integer.parseInt(req.getParameter("age")),
                 req.getParameter("email")
         );
         CRUD.createData(user);
@@ -54,7 +51,6 @@ public class UserDataServlet extends HttpServlet {
         Data user = new Data(
                 Integer.parseInt(req.getParameter("id")),
                 req.getParameter("name"),
-                Integer.parseInt(req.getParameter("age")),
                 req.getParameter("email")
         );
         CRUD.updateData(Integer.parseInt(req.getParameter("id")), user);

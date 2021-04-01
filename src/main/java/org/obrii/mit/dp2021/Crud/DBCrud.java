@@ -12,9 +12,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class FilesCrud implements ICrudData {
+public class DBCrud implements ICrudData{
 
-    public FilesCrud() {
+    public DBCrud() {
         ToolsforDB.connectToDB();
         ToolsforDB.checkForCreatingTable(ToolsforDB.getTableName());
     }
@@ -22,7 +22,7 @@ public class FilesCrud implements ICrudData {
     @Override
     public void createData(Data addingData) {
         ToolsforDB.SQLrequest(String.format("INSERT INTO " + ToolsforDB.getTableName() + " (firstName, lastName, phone, date) VALUES ('%s', '%s', '%s', '%s');",
-                addingData.getName(), addingData.getAge(), addingData.getEmail()));
+                addingData.getName(), addingData.getAge(), addingData.getEmail(), addingData.getId()));
     }
 
     @Override
@@ -34,8 +34,7 @@ public class FilesCrud implements ICrudData {
             while (result.next()) {
                 data.add(new Data(
                         result.getInt("id"),
-                        result.getString("name"),
-                        result.getInt("age"),
+                        result.getString("age"),
                         result.getString("email")
                 ));
             }
@@ -48,9 +47,10 @@ public class FilesCrud implements ICrudData {
     @Override
     public void updateData(int id, Data data) {
         ToolsforDB.SQLrequest(String.format("UPDATE " + ToolsforDB.getTableName()+ " "
-                + "SET name='" + data.getName() + "' , "
-                + "age=" + data.getAge() + " , "
-                + "email='" + data.getEmail() + "' , "
+                + "SET firstName='" + data.getName() + "' , "
+                + "lastName=" + data.getAge() + " , "
+                + "phone='" + data.getEmail() + "' , "
+                + "date='" + data.getId() + "' "
                 + "WHERE id=" + id)
         );
     }
