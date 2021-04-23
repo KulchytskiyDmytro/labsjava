@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1025bbc-202c-4ee1-9705-b507a9820f29" name="Default Changelist" comment="" />
+    <list default="true" id="d1025bbc-202c-4ee1-9705-b507a9820f29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rZMgIeDWTliD8sr9gls2NPlgQB" />
   <component name="ProjectViewState">
@@ -24,7 +29,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RunSpringApplication">
+    <configuration name="RunSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Laba6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.obrii.fit.mit.RunSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Laba6" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.obrii.fit.mit.FitLabs.RunSpringApplication" />
@@ -43,6 +55,7 @@
       <updated>1619179274851</updated>
       <workItem from="1619179276572" duration="660000" />
       <workItem from="1619180067201" duration="1706000" />
+      <workItem from="1619181892223" duration="48000" />
     </task>
     <servers />
   </component>
